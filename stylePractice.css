@@ -1,0 +1,51 @@
+body,
+p {
+  margin: auto;
+}
+
+p {
+  text-align: center;
+  font-family: "Great Vibes", cursive;
+  font-size: 1.5rem;
+  padding: 20px 10px;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+form {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+}
+
+.first {
+  background: linear-gradient(90deg, lightcoral, rgb(141, 16, 122));
+  height: 10vh;
+  margin: auto;
+}
+
+.second {
+  background-image: url(practice.jpg);
+  height: 70vh;
+  opacity: 0.5;
+}
+
+.second > p {
+  color: black;
+}
+
+.third {
+  background-color: lightgreen;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.third > p {
+  font-size: 1rem;
+}
